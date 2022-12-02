@@ -44,3 +44,26 @@ a {
     display: flex;
     justify-content: center;
 }
+
+/*footer*/
+footer{
+    background-color:#493B2A ;
+    height: 30vh;
+}
+.pad{
+    margin: 5vw;
+}
+
+.fitem{
+    margin-bottom: 5vh;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+.contacts>img{
+    width: 20%;
+    height: auto;
+}
