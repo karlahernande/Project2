@@ -14,21 +14,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: green;
+    background-color: #373D20;
     align-items: center;
     
     
 }
 
 .NavSelectors {
-    background-color: green;
+    background-color: #373D20;
     height: 10vh;
     font-size: 1.5em;
     margin-top: 30px;
 }
 
 a {
-    color: rgb(207, 207, 207);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -52,6 +52,7 @@ footer{
 }
 .pad{
     margin: 5vw;
+    font-weight:bold;
 }
 
 .fitem{
@@ -67,3 +68,4 @@ footer{
     width: 20%;
     height: auto;
 }
+
