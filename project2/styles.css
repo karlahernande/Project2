@@ -6,66 +6,80 @@
 }
 
 .Logo {
-    margin-right: 500px;
+    width: 100px;
 }
 
 
 .HeaderMain {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;;
     background-color: #373D20;
     align-items: center;
     
     
 }
 
-.NavSelectors {
-    background-color: #373D20;
-    height: 10vh;
-    font-size: 1.5em;
-    margin-top: 30px;
+.topNav {
+    width: 70vw;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 a {
     color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
 }
 
 
 
 .Hero {
-    /* background-image: ; Fill this in with the Hero image if the code works for the next person.  */
     width: 100%;
     height: 70vh;
-    background-color: aqua;
-}
+    background-image: url("Images/karsten-wurth-0w-uTa0Xz7w-unsplash.jpg");
+    background-size: 100vw 70vh;
 
-.Hero div {
     display: flex;
     justify-content: center;
+    align-content: center;
+
+    margin-bottom: 0px;
+}
+
+.Hero > p {
+    color: white;
 }
 
 /*footer*/
 footer{
     background-color:#493B2A ;
-    height: 30vh;
 }
 .pad{
-    margin: 5vw;
+    padding: 5vw;
     font-weight:bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fitem{
-    margin-bottom: 5vh;
+    padding-bottom: 5vh;
 }
 
 .contacts{
     display: flex;
     justify-content: space-between;
-    width: 50vw;
 }
-.contacts>img{
-    width: 20%;
-    height: auto;
+.contacts > img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: -90px;
 }
 
+.email-footerMain-fitem,
+.phone-footerMain-fitem,
+.address-footerMain-fitem {
+    color: white;
+}
