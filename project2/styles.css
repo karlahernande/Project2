@@ -6,7 +6,7 @@
 }
 
 .Logo {
-    width: 100px;
+    width: 10%;
 }
 
 
@@ -84,6 +84,40 @@ footer{
     color: white;
 }
 
-.Energy {
-    font-size:100%;
+/* Contributing page */
+.flexbox {
+    display:flex;
+    flex:wrap;
+}
+
+.energy {
+    width:50%;
+    background-color:#B1B695;
+}
+
+.energy > h2 {
+    text-align: center;
+    font-size:80px;
+    /* font-family */
+}
+
+.energy-text {
+    width:50%;
+    background-color:#776258;
+}
+
+.energy-text p {
+    margin-left: 10px;
+}
+
+.computer-img {
+    width:100%;
+}
+
+/* Get Involve page */
+
+.contribute-h2 {
+    background-color:#B1B695;
+    text-align: center;
+    font-size:70px;
 }
