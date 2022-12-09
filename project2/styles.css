@@ -6,7 +6,7 @@
 }
 
 .Logo {
-    width: 10%;
+    width: 100%;
 }
 
 
@@ -16,13 +16,11 @@
     justify-content: space-between;;
     background-color: #373D20;
     align-items: center;
-    
-    
+    height: 180px;
 }
 
 .topNav {
     width: 70vw;
-
     display: flex;
     justify-content: space-around;
 }
@@ -43,10 +41,29 @@ a {
 
     display: flex;
     justify-content: center;
-    align-content: center;
+    /* align-content:center; */
+    align-items: center;
+    
+       
 
     margin-bottom: 0px;
+
+    text-align: center;
+    /* vertical-align: middle; */
+    
 }
+
+.heroContent {
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2em;
+    font-size: 2rem;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
+
+
 
 .Hero > p {
     color: white;
@@ -108,10 +125,14 @@ footer{
 
 .energy-text p {
     margin-left: 10px;
+    font-family: 'Karma', serif;
+    font-size: 2em;
+    line-height: 1.5;
 }
 
 .computer-img {
     width:100%;
+    height: cover;
 }
 
 /* Get Involve page */
