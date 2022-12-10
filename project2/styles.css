@@ -17,6 +17,7 @@
     background-color: #373D20;
     align-items: center;
     height: 180px;
+    font-family: 'Jost', sans-serif;
 }
 
 .topNav {
@@ -105,11 +106,14 @@ footer{
 .flexbox {
     display:flex;
     flex:wrap;
+    font-family: 'Karma', serif;
 }
 
 .energy {
     width:50%;
     background-color:#B1B695;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
 
 .energy > h2 {
@@ -120,7 +124,7 @@ footer{
 
 .energy-text {
     width:50%;
-    background-color:#776258;
+    background-color:#594F3B;
 }
 
 .energy-text p {
@@ -141,4 +145,6 @@ footer{
     background-color:#B1B695;
     text-align: center;
     font-size:70px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
