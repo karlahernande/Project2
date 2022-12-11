@@ -76,7 +76,7 @@ footer{
 }
 .pad{
     padding: 5vw;
-    font-weight:bold;
+    font-family: 'Actor', sans-serif;
     display: flex;
     justify-content: space-between;
 }
@@ -100,6 +100,7 @@ footer{
 .phone-footerMain-fitem,
 .address-footerMain-fitem {
     color: white;
+    
 }
 
 /* Contributing page */
@@ -110,7 +111,7 @@ footer{
 }
 
 .energy {
-    width:50%;
+    width: 50%;
     background-color:#B1B695;
     font-family: 'Alegreya Sans SC', sans-serif;
 
@@ -119,7 +120,7 @@ footer{
 .energy > h2 {
     text-align: center;
     font-size:80px;
-    /* font-family */
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .energy-text {
@@ -141,10 +142,49 @@ footer{
 
 /* Get Involve page */
 
-.contribute-h2 {
+
+/* .contribute-text {
+    font-size: 20px;
+    padding-left: 20px;
+} */
+
+.flexbox {
+    display: flex;
+    font-family: 'Karma', serif;
+}
+
+.contribute {
+    width: 100%;
+    background-color: #B1B695;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.contribute > h2 {
     background-color:#B1B695;
     text-align: center;
     font-size:70px;
     font-family: 'Alegreya Sans SC', sans-serif;
-
 }
+
+
+.contribute-text {
+    width: 50%;
+    background-color: #394F49;
+    
+}
+
+.contribute-text p {
+    margin-left: 10px;
+    font-family: 'Karma', serif;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+
+.panels-img {
+   width: 50%;
+   height: cover;
+   align-items: left;
+   justify-content: center;
+}
+
