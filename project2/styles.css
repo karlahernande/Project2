@@ -7,6 +7,7 @@
 
 .Logo {
     width: 100%;
+    
 }
 
 
@@ -100,10 +101,11 @@ footer{
 .phone-footerMain-fitem,
 .address-footerMain-fitem {
     color: white;
+    font-weight: bold;
     
 }
 
-/* Contributing page */
+/* Contributing page (about) */
 .flexbox {
     display:flex;
     flex:wrap;
@@ -122,13 +124,13 @@ footer{
     text-align: center;
     font-size:80px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    height: ;
+   
 }
 
 .energy-text {
     width:50%;
     background-color:#594F3B;
-height: fit-content;
+    
 }
 
 .energy-text p {
@@ -136,11 +138,14 @@ height: fit-content;
     font-family: 'Karma', serif;
     font-size: 2em;
     line-height: 1.5;
+    font-weight: bold;
 }
 
 .computer-img {
     width:100%;
-    height: cover;
+
+    height: 86.8%;
+    
 }
 
 /* Get Involve page */
@@ -158,7 +163,7 @@ height: fit-content;
 }
 
 .contribute > h2 {
-    /* background-color:#B1B695; */
+    background-color:#B1B695;
     text-align: center;
     font-size: 80px;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -167,27 +172,93 @@ height: fit-content;
 
 .contribute-text {
     width: 100%;
+    /* background-color: #B1B695; */
     background-color: #394F49;
     display: flex;
     
-    
 }
+
 
 .contribute-text p {
     margin-left: 11px;
     font-family: 'Karma', serif;
     font-size: 2em;
     line-height: 1.5;
-    width: 50%;
+    width: 49.5%;
+    font-weight: bold;
    
     
 }
 
-.panels-img {
-width: 50%;
+.window-img {
+    width: 100%;
+    height: 87.7%;
 }
 
 
+.panels-img {
+width: 50%;
+
+}
+/* Moblie phone (iphone 11) */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo {
+    /* background-image: url(/Images/Rectangle\ 1\ \(1\).png) 0 0 no repeat; */
+    /* width: 256px;
+    height: 96px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; */
+}
+
+.HeaderMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #373D20;
+    align-items: center;
+    height: 180px;
+    font-family: 'Jost', sans-serif;
+}
+
+.topNav {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.Hero {
+    width: 110%;
+    height: 70vh;
+    background-image: url(Images/karsten-wurth-0w-uTa0Xz7w-unsplash.jpg);
+    background-size: 100vw 70vh;
+
+    display: flex;
+    justify-content: none;
+}
+
+.heroContent {
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2em;
+    font-size: 2rem;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
 
 
 
