@@ -36,14 +36,13 @@ a {
 
 
 .Hero {
-    width: 100%;
+    width: 90%;
     height: 70vh;
     background-image: url("Images/karsten-wurth-0w-uTa0Xz7w-unsplash.jpg");
     background-size: 100vw 70vh;
-
     display: flex;
     justify-content: center;
-    /* align-content:center; */
+    
     align-items: center;
     
        
@@ -142,9 +141,11 @@ footer{
 }
 
 .computer-img {
-    width:100%;
+    width: 100%;
+    width:30%;
 
-    height: 86.8%;
+    /* height: 86.8%; */
+    height: 30%;
     
 }
 
@@ -208,7 +209,17 @@ width: 50%;
     border: 0;
 }
 
-.logo {
+.IDK {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100%;
+    padding:15px;
+    background-image: radial-gradient(#F5A452,#F5A452,#373D20,#373D20);
+}
+
+div .Logo {
+    width:70px
     /* background-image: url(/Images/Rectangle\ 1\ \(1\).png) 0 0 no repeat; */
     /* width: 256px;
     height: 96px;
@@ -241,7 +252,7 @@ a {
 }
 
 .Hero {
-    width: 110%;
+    width: 100%;
     height: 70vh;
     background-image: url(Images/karsten-wurth-0w-uTa0Xz7w-unsplash.jpg);
     background-size: 100vw 70vh;
@@ -259,6 +270,151 @@ a {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
     font-weight: bold;
 }
+
+
+.heroContent {
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2em;
+    font-size: 2rem;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
+
+
+
+.Hero > p {
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color:#493B2A ;
+}
+.pad{
+    padding: 5vw;
+    font-family: 'Actor', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitem{
+    padding-bottom: 5vh;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts > img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: -90px;
+}
+
+.email-footerMain-fitem,
+.phone-footerMain-fitem,
+.address-footerMain-fitem {
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* Contributing page (about) */
+.flexbox {
+    display:flex;
+    flex:wrap;
+    font-family: 'Karma', serif;
+}
+
+.energy {
+    width: 50%;
+    background-color:#B1B695;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    height: auto;
+
+}
+
+.energy > h2 {
+    text-align: center;
+    font-size:50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+   
+}
+
+.energy-text {
+    width:50%;
+    background-color:#594F3B;
+    
+}
+
+.energy-text p {
+    margin-left: 10px;
+    font-family: 'Karma', serif;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.computer-img {
+    width:100%;
+
+    height: inherit;
+    
+}
+
+/* Get Involve page */
+
+
+.flexbox {
+    display: flex;
+    font-family: 'Karma', serif;
+}
+
+.contribute {
+    width: 100%;
+    /* background-color: #B1B695; */
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.contribute > h2 {
+    background-color:#B1B695;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.contribute-text {
+    width: 100%;
+    /* background-color: #B1B695; */
+    background-color: #394F49;
+    display: flex;
+    
+}
+
+
+.contribute-text p {
+    margin-left: 11px;
+    font-family: 'Karma', serif;
+    font-size: 2em;
+    line-height: 1.5;
+    width: 49.5%;
+    font-weight: bold;
+   
+    
+}
+
+.window-img {
+    width: 100%;
+    height: 87.7%;
+}
+
+
+.panels-img {
+width: 50%;
 
 
 
