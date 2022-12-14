@@ -183,7 +183,7 @@ footer{
 .contribute-text p {
     margin-left: 11px;
     font-family: 'Karma', serif;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 1.5;
     width: 49.5%;
     font-weight: bold;
@@ -193,7 +193,7 @@ footer{
 
 .window-img {
     width: 100%;
-    height: 87.7%;
+    height: auto;
 }
 
 
